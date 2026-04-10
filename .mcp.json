@@ -1,0 +1,28 @@
+{
+  "google-stitch": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "stitch-mcp"],
+    "env": {"GOOGLE_CLOUD_PROJECT": "darkscript-476511"}
+  },
+  "notebooklm": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "notebooklm-mcp@latest"]
+  },
+  "claude-mem": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "claude-mem"]
+  },
+  "n8n-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "n8n-mcp"]
+  },
+  "lightrag": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "lightrag-mcp"]
+  }
+}
