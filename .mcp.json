@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "google-stitch": {
+      "command": "npx",
+      "args": ["-y", "stitch-mcp"],
+      "env": {
+        "GOOGLE_CLOUD_PROJECT": "darkscript-476511"
+      }
+    },
+    "notebooklm": {
+      "command": "npx",
+      "args": ["-y", "notebooklm-mcp@latest"]
+    },
+    "claude-mem": {
+      "command": "npx",
+      "args": ["-y", "claude-mem"]
+    },
+    "n8n-mcp": {
+      "command": "npx",
+      "args": ["-y", "n8n-mcp"]
+    },
+    "lightrag": {
+      "command": "npx",
+      "args": ["-y", "lightrag-mcp"]
+    }
+  }
+}
